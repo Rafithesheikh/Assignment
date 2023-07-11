@@ -1,6 +1,6 @@
 /* Common shared styles */
 body{font-family: Lato;
-    ;}
+    }
     .btn-primary{
     border-radius: 9px;
     background-color:#E55473 ;
@@ -10,6 +10,7 @@ body{font-family: Lato;
     font-weight: 700;
     padding: 15px 35px;
     }
+    span{color: #E55473;}
     /* Header styles */
     header{background: rgba(229, 84, 115, 0.10);
     }
@@ -20,8 +21,7 @@ body{font-family: Lato;
         align-items: center;
         margin: 0px 30px 0px 150px;
         padding: 0px 100px 0px 0px;
-        
-    }
+        }
     
     .banner-name{
     color: #272727;
@@ -41,4 +41,192 @@ body{font-family: Lato;
     .header-profile-picture{
         width: 400px;  
     }
+
+    /* Bonus section 1 */
     
+    .section-title{
+    color: #272727;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+}
+.section-description{
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+}
+.bonus-photo{
+    display: flex;
+    gap: 20px;
+    padding-left: 110px ; 
+    
+}
+.featured{
+    padding: 0px;
+    border-radius: 10px;
+    margin: 130px 0;
+}
+.flower{
+    width: 300px;
+    flex-shrink: 0;
+}
+.bg1{
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(167, 33, 98, 0.15);
+    padding: 100px 50px 0px 50px;
+    margin: auto;
+}
+.bg2{ 
+    border-radius: 300px 300px 0px 0px;
+    background: #0597A026;
+    padding: 150px 50px 0px 50px;
+    margin: auto;
+}
+.bg3{
+    border-radius: 300px 300px 0px 0px;
+    background: #477D1126;
+    padding: 70px 50px 0px 50px;
+    margin: auto;
+}
+.flower-name{
+    display: flex; 
+    text-decoration: none;
+    padding-left: 200px;
+    
+}
+.catagories-1{
+    color: #272727;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 35px;
+    text-decoration-line: underline;
+    margin: auto;
+    
+    
+    
+}
+.catagories-2{
+    color: #272727;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 35px;
+    text-decoration-line: underline;
+    margin: auto;
+    
+}
+.catagories-3{
+    color: #272727;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 35px;
+    text-decoration-line: underline;
+    margin: auto;}
+
+/* Hot deal section */
+.deal{
+    background-color:#E554730D ;
+    display: flex;
+    padding-left: 320px;
+    
+}
+
+.hot-deal-header{
+    color: #272727;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    text-align: center;
+}
+.hot-deal-description{
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+}
+.deal-image{
+   padding-left: 300px;
+   margin: auto;
+
+
+}
+.mid-button{
+    text-align: center;
+}
+.ig-photos{
+    display: flex;
+    gap: 30px;
+    padding-left: 380px;
+    padding-right: 200px;
+    
+}
+/* Newslatter section */
+.subscribe{
+    border-radius: 8px;
+    background: url('../images/Rectangle\ 9.png'), lightgray 0px -203.444px / 100% 213.755% no-repeat ;
+    width: 1440px;
+    height: 449px;
+    margin-left: 400px;
+    padding-right: 240px;
+}
+
+.newslatter-title{
+    
+    padding-top: 150px;
+        color: #272727;
+        text-align: center;
+        font-size: 40px;
+        font-weight: 800;
+}
+.newslatter-decription{
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+.email{
+    width: 700px;
+    height: 64px;
+  
+
+}
+#align{
+    padding-left:400px ;
+}
+/* footer styles */
+.footer{
+    background-color: #111010;
+    height: 449px;
+
+}
+.footer-title{
+    padding-top: 128px;
+    text-align: center;
+    color: #FFFFFF;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+.footer-description{
+    color: rgba(255, 255, 255, 0.90);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+.last{
+    color: rgba(255, 255, 255, 0.40);
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;    
+}
